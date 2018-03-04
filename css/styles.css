@@ -1,28 +1,31 @@
 * {
-  border:1px solid #e3e3e3
+  border: 1px solid #e3e3e3
 }
-.container-fluid{
+
+.container-fluid {
   width: 100vw
- }
+}
 
 .header {
-  background-image: url(../images/background.jpg);
+  background-image: url(" ../img/backgrounds/landing.jpg");
   background-repeat: repeat;
   background-size: cover;
   font-size: 300%;
   font-family: serif;
-  image-resolution: snap;
-
+  image-resolution: from-image;
+  padding-left: 5%;
+  border: 0%;
 }
 
-.jumbotron {
+.center {
   max-width: 70%;
-  text-align: : center;
-  background-color: #ffffff;
+  text-align: center;
   vertical-align: middle;
   border: 1px solid;
   padding: 10px;
   padding-top: 0;
+  font-family: fantasy;
+  background-color:
 }
 
 .img-rounded {
@@ -30,27 +33,189 @@
   max-height: 100%;
 }
 
-#img-pad {
+.footer {
   padding-left: 4%;
   padding-top: 15%;
+  background-color: #F15A29;
 }
 
-#text-pad {
-  padding-right: 8%;
-  padding-top: 18%;
-  position: relative;
-  text-align: justify;
+#slogan {
+  font-size: 20px
 }
 
-#about-paragraph {
-  text-align: justify;
-  font-size: large;
-  .block-name {
-  font-size: 35px;
-  font-weight: 100;
+#copyright {
+  font-size: 50px;
 }
 
-.img-hello {
-  height: auto;
-  width: 70%;
+.email {
+  text-align: center;
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  color: white;
+  padding-bottom: 7%;
+  padding-top: 7%;
+}
+
+.email p {
+  font-size: 30px;
+}
+
+.foods {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  color: white;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+h4 {
+  color: #F15A29;
+  text-transform: capitalize;
+}
+
+.#email-input {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+
+.button2 {
+  background-color: #F15A29;
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-color: #F15A29;
+  border-radius: 4px;
+  font-size: 20px;
+  border: 1px;
+}
+
+.foods {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  color: white;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+#party {
+  background-color: #F15A29;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  padding-right: 20px;
+}
+
+#happy {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+#fastfood {
+  text-align: left;
+  margin: 25px;
+  padding: 50px;
+}
+
+#drinks {
+  text-align: right;
+  margin: 25px;
+  padding: 50px;
+}
+
+.button3 {
+  background-color: white;
+  color: #F15A29;
+  border: 2px solid #F15A29;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.box1 {
+  border: 1px solid #333;
+  height: 392px;
+  width: 492px;
+}
+
+.box2 {
+  border: 1px solid #333;
+  height: 392px;
+  width: 496px;
+}
+
+.box3 {
+  background-color: white;
+  color: #F15A29;
+  border: 1px;
+  width: 1000px;
+  height: 400px;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-top: 5%
+}
+
+.box4 {
+  background-color: white;
+  border: 1px solid #333;
+  width: 1000px;
+  height: 200px;
+  margin: 100px;
+  margin-left: 50px;
+}
+
+.border-right {
+  border-right: 1px solid #333;
+}
+
+.customers {
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+#open-menu, #close-menu {
+  position: absolute;
+  font-size: 300%;
+  color: white;
+}
+
+#open-menu {
+  left: 5%;
+}
+
+#close-menu {
+  left: 80%;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #F15A29;
+  z-index: 100;
+  left: -100%;
+  top: 0;
+}
+
+#the-menu {
+  list-style: none;
+}
+
+#the-menu a {
+  color: white;
+}
+
+#the-menu li {
+  text-transform: uppercase;
+  font-size: 100%;
 }
